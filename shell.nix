@@ -8,5 +8,6 @@ pkgs.mkShell {
   buildInputs = [
     nodejs_20
     nodePackages.pnpm
+    railway
   ];
 }
